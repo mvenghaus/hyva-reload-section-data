@@ -1,0 +1,13 @@
+{
+	"name": "mvenghaus/hyva-reload-section-data",
+	"description": "Disable the reload of section data for AJAX POST requests",
+	"type": "magento2-module",
+	"autoload": {
+		"files": [
+			"src/registration.php"
+		],
+		"psr-4": {
+			"MVenghaus\\HyvaReloadSectionData\\": "src"
+		}
+	}
+}
